@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Signika', sans-serif;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    color: #666;
+}
+
+.content .heading {
+    font-weight: 700;
+    font-size: 70px;
+    text-shadow: black 1px 1px 1px;
+}
+
+.content .sub-heading {
+    font-weight: 300;
+    font-size: 32px;
+}
